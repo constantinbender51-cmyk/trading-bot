@@ -12,7 +12,7 @@ const config = {
     KRAKEN_API_KEY: process.env.KRAKEN_API_KEY,
     KRAKEN_API_SECRET: process.env.KRAKEN_API_SECRET,
     SIGNAL_BOT_URL: process.env.SIGNAL_BOT_URL,
-    TRADING_SYMBOL: process.env.TRADING_SYMBOL || 'pf_xbtusd', // Default Kraken symbol
+    TRADING_SYMBOL: process.env.TRADING_SYMBOL || 'PF_XBTUSD', // Correct default symbol
     TRADE_SIZE: parseFloat(process.env.TRADE_SIZE) || 0.001,    // Smaller size for safety
     MAX_POSITION_SIZE: parseFloat(process.env.MAX_POSITION_SIZE) || 0.01,
     DRY_RUN: process.env.DRY_RUN !== 'false', // Default to true for safety
